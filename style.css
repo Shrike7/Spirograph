@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.settings {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.settings__title {
+    font-family: sans-serif;
+}
+
+.settings label {
+    font-family: sans-serif;
+}
+
+.settings__input {
+    margin-bottom: 10px;
+}
+
+.settings__submit {
+    margin-top: 10px;
+    outline: none;
+    padding: 5px;
+}

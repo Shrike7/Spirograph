@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiro</title>
+    <link rel="icon" href="/pageIcon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="canvas" width="700" height="600"></canvas>
+
+    <div class="settings">
+        <h1 class="settings__title">Spiro Settings</h1>
+        <label for="spiroRADIUS">RADIUS</label>
+        <input type="range" class="settings__input" id="spiroRADIUS" min="1" max="200">
+        <label for="spiroRadius">Radius</label>
+        <input type="range" class="settings__input" id="spiroRadius" min="1" max="200">
+        <label for="spiroDistance">Distance</label>
+        <input type="range" class="settings__input" id="spiroDistance" min="1" max="200">
+        <label for="spiroAngel">Angel</label>
+        <input type="range" class="settings__input" id="spiroAngel" min="1" max="50">
+        <label for="spiroColor">Color</label>
+        <input type="color" class="settings__input" id="spiroColor">
+        <label for="clearOnChange">Clear on change</label>
+        <input type="checkbox" class="settings__input" id="clearOnChange" checked>
+
+        <button class="settings__submit" id="settingsBtn">Start</button>
+    </div>
+</body>
+</html>
